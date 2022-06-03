@@ -560,6 +560,8 @@ section{
 }
 
 
+
+
 /*Contact section*/
 
 .contact-content-con{
@@ -595,6 +597,16 @@ section{
 
 }
 
+.contact-item #email a span{
+    color: aqua;
+    text-decoration: underline;
+}
+
+.contact-item #school-site a span{
+    color: aqua;
+    text-decoration: underline;
+}
+
 .contact-item .icon{
     display: grid;
     grid-template-columns: 40px 1fr;
@@ -603,7 +615,7 @@ section{
 .contact-icons{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 }
 
 .contact-icon{
