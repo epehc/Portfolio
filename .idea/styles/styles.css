@@ -597,16 +597,10 @@ section{
 
 }
 
-.contact-item #email a span{
-    color: aqua;
+.contact-item p a span{
+    color: #0095ff;
     text-decoration: underline;
 }
-
-.contact-item #school-site a span{
-    color: aqua;
-    text-decoration: underline;
-}
-
 .contact-item .icon{
     display: grid;
     grid-template-columns: 40px 1fr;
